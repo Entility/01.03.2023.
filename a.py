@@ -39,9 +39,6 @@ for i in range(1, 11):
 file = open("list.csv", "w")
 file.write("name, surname, email\n")
 
-amount=input("How many preson contacts yopu need?":)
+amount=input("How many preson contacts you need?:")
 for i in range(1, (amount+1)):
     file.write(f"Name{i}, Surname{i}, Email{i}\n")
-
-
-
